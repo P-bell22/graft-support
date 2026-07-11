@@ -110,6 +110,12 @@ h2 em, h1 em { color: var(--acid); font-style: normal; }
 .button-primary:hover { background: #e5ff9c; box-shadow: 0 8px 28px rgba(216, 250, 112, .16); }
 .text-link { display: inline-flex; align-items: center; gap: 9px; border-bottom: 1px solid var(--line-bright); padding-bottom: 5px; color: var(--text-soft); font-size: .86rem; transition: color .2s ease, border-color .2s ease; }
 .text-link span { color: var(--acid); font-size: 1rem; }
+.app-store-badge { display: inline-flex; min-height: 52px; align-items: center; gap: 10px; padding: 7px 13px 7px 11px; border: 1px solid var(--line-bright); border-radius: 12px; background: rgba(21, 23, 25, .72); color: var(--text); }
+.app-store-icon { color: var(--text); font-size: 1.5rem; line-height: 1; }
+.app-store-copy { display: grid; gap: 1px; line-height: 1; }
+.app-store-copy small { color: var(--text-dim); font-size: .43rem; font-weight: 700; letter-spacing: .12em; }
+.app-store-copy strong { font-size: .76rem; letter-spacing: -.02em; }
+.app-store-badge em { align-self: flex-start; margin-top: 1px; color: var(--acid); font-size: .5rem; font-style: normal; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
 .hero-note { display: flex; align-items: center; gap: 9px; margin-top: 45px; color: var(--text-dim); font-size: .75rem; }
 .hero-note span { color: var(--acid); font-size: 1.1rem; }
 
