@@ -80,7 +80,7 @@ button { font: inherit; }
 .tally-mark-line, .tally-mark-slash { position: absolute; display: block; }
 .tally-mark-line { bottom: 20%; width: 10%; height: 60%; border-radius: 999px; background: var(--text); transform: scaleY(0); transform-origin: top center; animation: tally-line-draw .42s cubic-bezier(.22, .8, .3, 1) both; }
 .tally-mark-line:nth-child(1) { left: 20%; animation-delay: .05s; }.tally-mark-line:nth-child(2) { left: 40%; animation-delay: .24s; }.tally-mark-line:nth-child(3) { left: 60%; animation-delay: .43s; }.tally-mark-line:nth-child(4) { left: 80%; animation-delay: .62s; }
-.tally-mark-slash { top: 22%; right: 8%; width: 87%; height: 14%; border-radius: 999px; background: var(--acid); transform: rotate(-38deg) scaleX(0); transform-origin: right center; animation: tally-slash-draw .52s cubic-bezier(.22, .8, .3, 1) .86s both; }
+.tally-mark-slash { top: 18%; right: 8%; width: 87%; height: 14%; border-radius: 999px; background: var(--acid); transform: rotate(-38deg) scaleX(0); transform-origin: right center; animation: tally-slash-draw .52s cubic-bezier(.22, .8, .3, 1) .86s both; }
 @keyframes tally-line-draw { from { opacity: .25; transform: scaleY(0); } to { opacity: 1; transform: scaleY(1); } }
 @keyframes tally-slash-draw { from { opacity: .25; transform: rotate(-38deg) scaleX(0); } to { opacity: 1; transform: rotate(-38deg) scaleX(1); } }
 
