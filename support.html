@@ -3,20 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Graft Support</title>
-  <meta name="description" content="Support information for Graft.">
+  <meta name="theme-color" content="#0b0c0d">
+  <meta name="description" content="Help with Graft setup, subscriptions, Health, Screen Time and troubleshooting.">
+  <title>Support — Graft</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
-  <main class="shell policy">
-    <p class="eyebrow"><a href="index.html">Graft</a></p>
+  <main class="content-shell">
+    <header class="page-nav">
+      <a class="brand" href="index.html" aria-label="Graft home"><span class="brand-mark" aria-hidden="true">G</span><span>Graft</span></a>
+      <nav aria-label="Page navigation"><a href="index.html">Home</a><a href="privacy.html">Privacy</a><a href="legal.html">Legal</a></nav>
+    </header>
+    <p class="eyebrow">Graft · Help centre</p>
     <h1>Support</h1>
-    <p class="lede">Need help with Graft? Start here.</p>
+    <p class="lede">Need a hand with Graft? Start with the checks below, then send a private support request if you are still stuck.</p>
 
     <h2>Contact</h2>
     <p>For beta testing, use TestFlight feedback where available. For public support, open an issue on the Graft support repository:</p>
-    <p><a class="button" href="https://github.com/P-bell22/graft-support/issues/new">Open a support request</a></p>
-    <p class="muted">Please do not include private Health data, screenshots that reveal sensitive information, or payment-card details in a public support request.</p>
+    <p><a class="button button-primary" href="https://github.com/P-bell22/graft-support/issues/new">Open a support request <span aria-hidden="true">↗</span></a></p>
+    <div class="callout"><p>Please do not include private Health data, screenshots that reveal sensitive information, Apple Account details or payment-card details in a public support request. Graft support should never need your password.</p></div>
 
     <h2>Common checks</h2>
     <ul>
@@ -27,7 +33,10 @@
     </ul>
 
     <h2>What Graft can and cannot do</h2>
-    <p>Graft is strong friction, not a tamper-proof lock against the device owner. It uses Apple Health, Screen Time, and StoreKit on the device; it does not run a developer-operated backend or require a Graft account.</p>
+    <p>Graft is strong friction, not a tamper-proof lock against the device owner. It uses Apple Health, Screen Time and StoreKit on the device; it does not run a developer-operated backend or require a Graft account.</p>
+
+    <h2>Before you write</h2>
+    <p>Include your iOS version, Graft version, whether the day was locked, on break or open, and what you expected to happen. Leave out Health exports, Screen Time screenshots and Apple Account details unless they are essential and you are sharing them privately.</p>
   </main>
 </body>
 </html>

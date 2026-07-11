@@ -3,30 +3,227 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Graft Support</title>
-  <meta name="description" content="Support, privacy, and legal information for Graft.">
+  <meta name="theme-color" content="#0b0c0d">
+  <meta name="description" content="Graft is a training contract for your attention. Shield distracting apps and websites until your daily training is done.">
+  <meta property="og:title" content="Graft — Earn your way back">
+  <meta property="og:description" content="A private, training-based way to make space for the things that matter."
+  >
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://hardgraft.app/">
+  <title>Graft — Earn your way back</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/script.js" defer></script>
 </head>
 <body>
-  <main class="shell">
-    <p class="eyebrow">Graft</p>
-    <h1>Support and privacy</h1>
-    <p class="lede">Graft is a single-user iPhone app that keeps selected apps and websites blocked until your daily training requirement is complete.</p>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html" aria-label="Graft home">
+        <span class="brand-mark" aria-hidden="true">G</span>
+        <span>Graft</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Open navigation</span>
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#features">Why Graft</a>
+        <a href="#privacy">Privacy</a>
+        <a class="nav-cta" href="support.html">Get support <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
 
-    <section class="grid" aria-label="Site links">
-      <a class="card" href="support.html">
-        <span>Support</span>
-        <small>Get help with setup, subscriptions, Health, Screen Time, and troubleshooting.</small>
-      </a>
-      <a class="card" href="privacy.html">
-        <span>Privacy policy</span>
-        <small>How Graft handles Health, Screen Time, subscription, and on-device data.</small>
-      </a>
-      <a class="card" href="legal.html">
-        <span>Legal</span>
-        <small>Subscription terms and Apple’s standard end-user licence agreement.</small>
-      </a>
+  <main>
+    <section class="hero section-pad">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-copy" data-reveal>
+        <p class="eyebrow"><span class="eyebrow-dot"></span> A training contract for your attention</p>
+        <h1>Earn your way back to the apps you choose.</h1>
+        <p class="hero-lede">Graft shields distracting apps and websites from midnight until you complete the training that matters to you.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#how-it-works">See how it works <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="privacy.html">Private by design <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="hero-note"><span aria-hidden="true">⌁</span> Built for iPhone with Apple Health and Screen Time.</p>
+      </div>
+
+      <div class="hero-product" data-reveal data-delay="120" aria-label="Preview of a locked Graft day">
+        <div class="product-orbit product-orbit-one" aria-hidden="true"></div>
+        <div class="product-orbit product-orbit-two" aria-hidden="true"></div>
+        <div class="phone-shadow" aria-hidden="true"></div>
+        <div class="phone">
+          <div class="phone-button phone-button-top" aria-hidden="true"></div>
+          <div class="phone-button phone-button-bottom" aria-hidden="true"></div>
+          <div class="phone-screen">
+            <div class="phone-island" aria-hidden="true"></div>
+            <div class="phone-status"><span>9:41</span><span>▮▮▮ ᯤ</span></div>
+            <div class="phone-appbar"><span class="mini-mark">G</span><span>Graft</span><span class="phone-menu">•••</span></div>
+            <div class="phone-date">THURSDAY · 11 JULY</div>
+            <div class="phone-heading">Earn your<br><em>open</em> day.</div>
+            <div class="phone-lock-card">
+              <div class="lock-card-top"><span class="lock-icon">◈</span><span>SHIELDS UP</span><span class="lock-pulse"></span></div>
+              <p>Complete today's plan<br>to open your apps.</p>
+              <div class="progress-line"><span></span></div>
+              <div class="progress-caption"><span>5.2 km of 5.0 km</span><strong>DONE</strong></div>
+            </div>
+            <div class="phone-list-label">TODAY'S CONTRACT</div>
+            <div class="phone-row"><span class="row-symbol">↗</span><span><b>Training</b><small>Run · 30 min · 5 km</small></span><strong class="row-check">✓</strong></div>
+            <div class="phone-row muted-row"><span class="row-symbol">◒</span><span><b>Shielded</b><small>3 apps · 2 websites</small></span><span class="row-arrow">›</span></div>
+            <div class="phone-footer"><span>breaks <b>3</b></span><span>emergency <b>5</b></span></div>
+          </div>
+        </div>
+        <div class="float-tag float-tag-top"><span class="tag-dot"></span> Health verified</div>
+        <div class="float-tag float-tag-bottom">No account needed <span aria-hidden="true">✦</span></div>
+      </div>
+    </section>
+
+    <section class="proof-bar">
+      <div class="proof-inner">
+        <p>Less negotiation. More follow-through.</p>
+        <div class="proof-items">
+          <span><i>01</i> Set your rule</span>
+          <span><i>02</i> Do the work</span>
+          <span><i>03</i> Get your time back</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad how-section" id="how-it-works">
+      <div class="section-intro" data-reveal>
+        <p class="eyebrow">The loop</p>
+        <h2>A simple rule<br><em>you can keep.</em></h2>
+        <p>Graft turns intention into a daily contract. The finish line is visible, the reward is real, and the decision is made before the distracting moment arrives.</p>
+      </div>
+      <div class="steps" data-reveal data-delay="100">
+        <article class="step-card step-card-active">
+          <span class="step-number">01</span>
+          <div class="step-icon step-icon-moon" aria-hidden="true"><span></span></div>
+          <h3>Start behind the shield.</h3>
+          <p>Choose the apps and websites that pull you away. Graft shields them from midnight.</p>
+          <span class="step-meta">Your blocklist · Your rules</span>
+        </article>
+        <div class="step-connector" aria-hidden="true"><span></span></div>
+        <article class="step-card">
+          <span class="step-number">02</span>
+          <div class="step-icon step-icon-run" aria-hidden="true">↗</div>
+          <h3>Put in the work.</h3>
+          <p>Set a workout or a rest-day step goal. Graft checks the evidence you allow through Apple Health.</p>
+          <span class="step-meta">Training · Steps · Recovery</span>
+        </article>
+        <div class="step-connector" aria-hidden="true"><span></span></div>
+        <article class="step-card">
+          <span class="step-number">03</span>
+          <div class="step-icon step-icon-open" aria-hidden="true">✓</div>
+          <h3>Open your day.</h3>
+          <p>When the requirement is verified, the shield lifts. No streak theatre. Just a clear exchange.</p>
+          <span class="step-meta">Verified · Unlocked · Yours</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-pad features-section" id="features">
+      <div class="feature-heading" data-reveal>
+        <p class="eyebrow">Why Graft</p>
+        <h2>Make the <em>right thing</em><br>the easy thing.</h2>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card feature-card-large" data-reveal>
+          <div class="feature-visual plan-visual" aria-hidden="true">
+            <span class="visual-kicker">WEEK PLAN</span>
+            <div class="plan-days"><span class="day-done">M</span><span class="day-active">T</span><span>W</span><span>Th</span><span>F</span><span>Sa</span><span>Su</span></div>
+            <div class="plan-main"><span class="plan-icon">↗</span><span><b>Run</b><small>30 min · 5 km</small></span><strong>Today</strong></div>
+            <div class="plan-bottom"><span class="tiny-bar"></span><span class="tiny-bar tiny-bar-short"></span><span class="tiny-bar tiny-bar-mid"></span></div>
+          </div>
+          <div class="feature-copy"><p class="feature-label">01 · Your contract</p><h3>Your target, not someone else's.</h3><p>Build a week around the training you actually do: workouts on training days, steps when the plan says recover.</p></div>
+        </article>
+        <article class="feature-card" data-reveal data-delay="80">
+          <div class="feature-visual shield-visual" aria-hidden="true"><span class="shield-shape">G</span><span class="shield-ring"></span><span class="shield-word">SHIELD<br>ACTIVE</span></div>
+          <div class="feature-copy"><p class="feature-label">02 · The boundary</p><h3>Distraction, with a door.</h3><p>Apps, categories and typed websites stay behind a real boundary until your work is verified.</p></div>
+        </article>
+        <article class="feature-card" data-reveal data-delay="160">
+          <div class="feature-visual break-visual" aria-hidden="true"><span class="break-time">04:32</span><span class="break-bar"><i></i></span><span class="break-caption">BREAK REMAINING</span></div>
+          <div class="feature-copy"><p class="feature-label">03 · The release valve</p><h3>Breaks with guardrails.</h3><p>Take a short, intentional break without turning a moment of relief into a lost afternoon.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="manifesto-section">
+      <div class="manifesto-inner section-pad" data-reveal>
+        <p class="eyebrow">The Graft promise</p>
+        <blockquote>“You don't need more discipline. You need fewer decisions at the exact moment your discipline is tired.”</blockquote>
+        <p class="manifesto-foot">Strong friction for a single-user iPhone. Never a claim that the owner of the device can be locked out forever.</p>
+      </div>
+    </section>
+
+    <section class="section-pad privacy-section" id="privacy">
+      <div class="privacy-layout">
+        <div class="privacy-copy" data-reveal>
+          <p class="eyebrow">Quietly private</p>
+          <h2>Your data stays<br><em>with you.</em></h2>
+          <p>Graft has no account, no advertising SDK and no developer-run data server. Health evidence, Screen Time selections, your plan and your history live on your iPhone.</p>
+          <a class="text-link" href="privacy.html">Read the privacy policy <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="privacy-card" data-reveal data-delay="100">
+          <div class="privacy-card-header"><span class="privacy-lock" aria-hidden="true">⌁</span><span>ON-DEVICE BY DEFAULT</span></div>
+          <div class="privacy-list">
+            <div><span class="privacy-check">✓</span><span><b>Health evidence</b><small>Used to verify your requirement</small></span></div>
+            <div><span class="privacy-check">✓</span><span><b>Screen Time choices</b><small>Stored in Apple's protected controls</small></span></div>
+            <div><span class="privacy-check">✓</span><span><b>Plan and history</b><small>Kept in the app's local container</small></span></div>
+          </div>
+          <div class="privacy-card-footer">No Graft login <span>·</span> No cloud copy</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad faq-section">
+      <div class="section-intro faq-intro" data-reveal>
+        <p class="eyebrow">Good to know</p>
+        <h2>Questions worth<br><em>asking first.</em></h2>
+      </div>
+      <div class="faq-list" data-reveal data-delay="100">
+        <details open>
+          <summary>Does Graft block everything on my phone?</summary>
+          <p>No. You choose the apps, categories and websites. Graft only shields the distractions you put in the contract.</p>
+        </details>
+        <details>
+          <summary>What counts as training?</summary>
+          <p>You set the plan. Graft can verify trusted workouts and a step target for rest days using the Apple Health data you authorise.</p>
+        </details>
+        <details>
+          <summary>What if I need a way out?</summary>
+          <p>Graft includes timed breaks and a small lifetime emergency unlock pool. Strict Mode adds friction, but it is deliberately honest about the device owner's ultimate control.</p>
+        </details>
+        <details>
+          <summary>Where can I get help?</summary>
+          <p>Visit the <a href="support.html">support page</a> for setup checks and a private route to report an issue.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="final-cta section-pad" data-reveal>
+      <div class="final-cta-inner">
+        <p class="eyebrow">Ready when you are</p>
+        <h2>Give your attention<br><em>a finish line.</em></h2>
+        <p>Start with the distractions you want back on your terms.</p>
+        <a class="button button-primary" href="support.html">Explore Graft support <span aria-hidden="true">↗</span></a>
+      </div>
     </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a class="brand" href="index.html" aria-label="Graft home"><span class="brand-mark" aria-hidden="true">G</span><span>Graft</span></a>
+      <p>Make the rule. Do the work. Get your time back.</p>
+      <nav aria-label="Footer navigation">
+        <a href="privacy.html">Privacy</a>
+        <a href="support.html">Support</a>
+        <a href="legal.html">Legal</a>
+      </nav>
+      <small>© 2026 Graft. Built for a quieter iPhone.</small>
+    </div>
+  </footer>
 </body>
 </html>
