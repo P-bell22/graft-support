@@ -76,6 +76,12 @@ button { font: inherit; }
   height: 29px;
   place-items: center;
 }
+.brand-mark img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
 .tally-mark { position: relative; display: block; width: 100%; height: 100%; overflow: hidden; }
 .tally-mark-line, .tally-mark-slash { position: absolute; display: block; }
 .tally-mark-line { bottom: 20%; width: 10%; height: 60%; border-radius: 999px; background: var(--text); transform: scaleY(0); transform-origin: top center; animation: tally-line-draw .42s cubic-bezier(.22, .8, .3, 1) both; }
